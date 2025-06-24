@@ -24,10 +24,10 @@
 	<div class="mx-auto text-center">
 		<h1 class="text-xl font-semibold tracking-tight sm:text-6xl lg:text-4xl">Showcase Aplikasi</h1>
 		<p
-			class="text-muted-foreground mx-auto mt-4 max-w-[18rem] text-center text-sm leading-5 md:max-w-4xl md:text-lg md:leading-8"
+			class="text-muted-foreground mx-auto mt-4 max-w-[18rem] text-center text-sm leading-5 md:max-w-2xl md:text-lg md:leading-8"
 		>
-			Temukan berbagai aplikasi keren hasil karya komunitas dan tim developer kami. Showcase ini
-			menampilkan ide-ide inovatif dan penggunaan teknologi terkini.
+			Temukan berbagai aplikasi keren hasil karya kami. Showcase ini menampilkan ide-ide inovatif
+			dan penggunaan teknologi terkini.
 		</p>
 	</div>
 	<div class="mx-auto grid justify-center gap-4 px-12 py-8 sm:grid-cols-2 md:max-w-5xl md:py-16">

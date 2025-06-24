@@ -13,10 +13,9 @@
 			Selamat Datang di <span class="text-red-400">Showcase</span> Kami!
 		</h1>
 		<p
-			class="text-muted-foreground mx-auto mt-4 max-w-[16rem] text-sm leading-5 md:mt-12 md:max-w-xl md:text-lg md:leading-8"
+			class="text-muted-foreground mx-auto mt-4 max-w-[16rem] text-sm leading-5 md:mt-12 md:max-w-[38rem] md:text-2xl md:leading-8"
 		>
-			Dari produktivitas hingga hiburan, temukan solusi digital yang akan mengubah cara Anda bekerja
-			dan bermain.
+			Memperkenalkan beberapa studi kasus aplikasi kecerdasan buatan dalam kehidupan sehari-hari.
 		</p>
 	</div>
 </section>
