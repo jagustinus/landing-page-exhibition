@@ -2,17 +2,26 @@
 	import { Button } from '$lib/components/ui/button/index';
 	import { Badge } from '$lib/components/ui/badge/index';
 	import { BrainCircuit } from 'lucide-svelte';
+	import { LetterText } from 'lucide-svelte';
 
 	const listApplications = [
 		{
 			title: 'MBTI Test Informatika',
 			description: 'Tes kepribadian MBTI untuk menentukan jurusan Informatika',
-			href: 'https://ukdc-kbu-mbti-1.joelmedia.my.id/'
+			href: 'https://ukdc-kbu-mbti-1.joelmedia.my.id/',
+			icon: BrainCircuit
 		},
 		{
 			title: 'MBTI Test Pekerjaan',
 			description: 'Tes kepribadian MBTI untuk menentukan minat pekerjaan',
-			href: 'https://ukdc-kbu-mbti-2.joelmedia.my.id/'
+			href: 'https://ukdc-kbu-mbti-2.joelmedia.my.id/',
+			icon: BrainCircuit
+		},
+		{
+			title: 'Generator Teks Hoax',
+			description: 'Aplikasi untuk menghasilkan teks berita hoax dengan bahasa Indonesia',
+			href: 'https://generate-hoaks-gpt2-c4htvdjh7fdspjr8pewrkt.streamlit.app/',
+			icon: LetterText
 		}
 	];
 </script>
@@ -37,7 +46,7 @@
 					class="bg-background relative overflow-hidden rounded-lg border p-2 transition-all duration-300 ease-in-out hover:border-red-400 hover:shadow-sm"
 				>
 					<div class="flex h-[180px] flex-col gap-4 rounded-md p-6">
-						<BrainCircuit class="h-12 w-12 text-red-400" />
+						<svelte:component this={app.icon} class="h-8 w-8 text-red-500" />
 						<div class="space-y-2">
 							<h3 class="font-medium">{app.title}</h3>
 							<p class="text-muted-foreground text-sm">
