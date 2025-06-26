@@ -21,7 +21,7 @@
 		{
 			title: 'Generator Teks Hoax',
 			description: 'Aplikasi untuk menghasilkan teks berita hoax dengan bahasa Indonesia',
-			href: 'https://generate-hoaks-gpt2-c4htvdjh7fdspjr8pewrkt.streamlit.app/',
+			href: 'https://ukdc-kbu-hoax-generator.joelmedia.my.id/',
 			icon: LetterText
 		},
 		{
