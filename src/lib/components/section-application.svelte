@@ -3,6 +3,7 @@
 	import { Badge } from '$lib/components/ui/badge/index';
 	import { BrainCircuit } from 'lucide-svelte';
 	import { LetterText } from 'lucide-svelte';
+	import { ScanFace } from 'lucide-svelte';
 
 	const listApplications = [
 		{
@@ -22,6 +23,13 @@
 			description: 'Aplikasi untuk menghasilkan teks berita hoax dengan bahasa Indonesia',
 			href: 'https://generate-hoaks-gpt2-c4htvdjh7fdspjr8pewrkt.streamlit.app/',
 			icon: LetterText
+		},
+		{
+			title: 'Deteksi Kesimetrisan pada Wajah',
+			description:
+				'Aplikasi untuk mendeteksi kesimetrisan pada wajah menggunakan OpenCV dan Algoritma Viola Jones',
+			href: 'https://ukdc-kbu-face-analyzer.joelmedia.my.id/',
+			icon: ScanFace
 		}
 	];
 </script>
